@@ -2,13 +2,14 @@
 
 Static one-page site (no build step): `index.html`, `styles.css`, `script.js`, `favicon.svg`.
 
-## Before you publish
+## Contact
 
-Edit contact placeholders in `index.html`:
+Primary CTA is **Message on Upwork** (no personal email / Messenger / WhatsApp on this marketing site):
 
-- `hello@REPLACE.me`
-- `[Your Facebook / Messenger link]`
-- `[Your WhatsApp link or number]`
+- Upwork: [upwork.com/freelancers/aarons3](https://www.upwork.com/freelancers/~011c47e1bf0794d5ad)
+- GitHub: [github.com/Ronzkie27](https://github.com/Ronzkie27)
+
+Live site (GitHub Pages): `https://ronzkie27.github.io/portfolio/`
 
 ## Preview locally
 
@@ -104,4 +105,4 @@ No base-path changes needed.
 
 ## Tip
 
-Keep Upwork as one channel: [upwork.com/freelancers/aarons3](https://upwork.com/freelancers/aarons3). This site is for clients who prefer email / Messenger / WhatsApp.
+Hire / message via Upwork: [upwork.com/freelancers/aarons3](https://www.upwork.com/freelancers/~011c47e1bf0794d5ad). Code and demos: [github.com/Ronzkie27](https://github.com/Ronzkie27).

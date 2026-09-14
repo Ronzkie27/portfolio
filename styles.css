@@ -964,6 +964,15 @@ a:hover { color: var(--accent-deep); }
 }
 .about-grid p:last-of-type { margin-bottom: 0; }
 
+.about-title {
+  margin: 0.35rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+  line-height: 1.35;
+  max-width: 28rem;
+}
+
 .about-card {
   background: var(--ink);
   color: var(--paper);
@@ -1023,6 +1032,7 @@ a:hover { color: var(--accent-deep); }
 }
 @media (min-width: 720px) {
   .contact-cards { grid-template-columns: repeat(3, 1fr); }
+  .contact-cards--links { grid-template-columns: repeat(2, 1fr); }
 }
 
 .contact-card {
@@ -1059,6 +1069,55 @@ a:hover { color: var(--accent-deep); }
   margin: 0.4rem 0 0;
   font-size: 0.72rem;
   color: rgba(255, 252, 248, 0.4);
+}
+
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0 0.25rem;
+}
+
+.btn-contact {
+  text-decoration: none;
+}
+
+.cta-box .btn-primary {
+  background: #fff;
+  color: #1a1410;
+  border: 1px solid #fff;
+}
+.cta-box .btn-primary:hover {
+  background: #f3ebe4;
+}
+.cta-box .btn-ghost {
+  color: #fff;
+  border-color: rgba(255, 252, 248, 0.35);
+  background: transparent;
+}
+.cta-box .btn-ghost:hover {
+  border-color: #fff;
+  background: rgba(255, 252, 248, 0.08);
+}
+
+.contact-card--link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-style: solid;
+  border-color: rgba(255, 252, 248, 0.18);
+}
+.contact-card--link:hover {
+  border-color: rgba(255, 252, 248, 0.45);
+}
+
+.contact-value {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 .cta-alt {
