@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="SAMPLE mark: BrightPath Tutors">
+  <title>BrightPath Tutors mark — SAMPLE</title>
+  <circle cx="256" cy="256" r="256" fill="#F4A261"/>
+  <path d="M120 270 Q256 195 392 270 L392 355 Q256 295 120 355 Z" fill="#FFF8EB"/>
+  <path d="M256 215 L256 340" stroke="#E76F51" stroke-width="8" stroke-linecap="round"/>
+  <path d="M310 120 L385 195 L360 208 L285 133 Z" fill="#2A9D8F"/>
+  <path d="M285 133 L272 162 L302 148 Z" fill="#264653"/>
+  <path d="M160 125 l12 28 30 3 -23 20 8 29 -27 -16 -27 16 8 -29 -23 -20 30 -3 z" fill="#FFF8EB"/>
+  <text x="256" y="455" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#264653" letter-spacing="4">SAMPLE</text>
+</svg>

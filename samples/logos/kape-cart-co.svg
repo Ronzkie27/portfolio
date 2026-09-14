@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="SAMPLE logo: Kape Cart Co.">
+  <title>Kape Cart Co. — SAMPLE / DEMO</title>
+  <rect width="800" height="500" fill="#F7F1E8"/>
+  <rect x="40" y="40" width="720" height="420" rx="24" fill="#FFFBF6" stroke="#E8DCC8" stroke-width="2"/>
+  <!-- mark -->
+  <g transform="translate(160,145)">
+    <circle cx="90" cy="90" r="88" fill="#5C3A21"/>
+    <circle cx="90" cy="90" r="72" fill="#8B5E34"/>
+    <!-- cup -->
+    <path d="M55 70 h55 l-6 55 c-1 12 -12 20 -24 20 h-7 c-12 0 -23 -8 -24 -20 z" fill="#F7F1E8"/>
+    <path d="M110 82 h14 c12 0 20 10 20 22 s-8 22 -20 22 h-12" fill="none" stroke="#F7F1E8" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="82" cy="70" rx="28" ry="8" fill="#F7F1E8"/>
+    <!-- steam -->
+    <path d="M70 52 q6 -10 0 -18" fill="none" stroke="#F7F1E8" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+    <path d="M86 48 q6 -10 0 -18" fill="none" stroke="#F7F1E8" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+    <path d="M102 52 q6 -10 0 -18" fill="none" stroke="#F7F1E8" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+    <!-- wheel accent -->
+    <circle cx="90" cy="158" r="14" fill="#C4783A" stroke="#F7F1E8" stroke-width="3"/>
+    <circle cx="90" cy="158" r="4" fill="#F7F1E8"/>
+  </g>
+  <text x="380" y="210" font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="#5C3A21" font-weight="700">Kape Cart Co.</text>
+  <text x="380" y="255" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8B5E34" letter-spacing="3">LOCAL COFFEE · SAMPLE</text>
+  <text x="380" y="300" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#A89078">Fictional business · demo mark only</text>
+  <!-- SAMPLE stamp -->
+  <g transform="translate(620,60) rotate(12)">
+    <rect x="-54" y="-16" width="108" height="32" rx="4" fill="none" stroke="#C4783A" stroke-width="2.5" opacity="0.9"/>
+    <text x="0" y="6" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#C4783A" letter-spacing="2">SAMPLE</text>
+  </g>
+</svg>
