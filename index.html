@@ -11,6 +11,8 @@
   <meta property="og:title" content="Aaron Saclolo — Freelance Creative, Design &amp; Web" />
   <meta property="og:description" content="Scoped fixed-price packs: transcription, photo, copy, design, video, small web &amp; AI. PH-based, US/EU async-friendly." />
   <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="og-mark.png" />
+  <meta name="twitter:image" content="og-mark.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Aaron Saclolo — Freelance Creative, Design &amp; Web" />
   <meta name="twitter:description" content="Scoped fixed-price packs. Clear deliverables. PH timezone · US/EU async." />
@@ -26,7 +28,7 @@
   <header class="site-header" id="top">
     <div class="wrap header-inner">
       <a class="logo" href="#top" aria-label="Aaron Saclolo home">
-        <span class="logo-mark" aria-hidden="true">AS</span>
+        <img class="logo-mark" src="favicon.svg" width="32" height="32" alt="" aria-hidden="true" />
         <span class="logo-text">Aaron Saclolo</span>
       </a>
       <nav class="nav" aria-label="Primary">
@@ -52,6 +54,21 @@
   <main id="main">
     <section class="hero">
       <div class="wrap hero-grid">
+        <div class="hero-identity reveal">
+          <!-- Swap src to a real headshot later; keep id="profile-photo" -->
+          <div class="avatar-wrap">
+            <img
+              id="profile-photo"
+              class="profile-photo"
+              src="avatar-as.png"
+              width="160"
+              height="160"
+              alt="Aaron Saclolo"
+              data-placeholder="avatar-as.png"
+              data-photo-path="photos/aaron-headshot.jpg"
+            />
+          </div>
+        </div>
         <div class="hero-copy reveal">
           <p class="eyebrow">Philippines · PH timezone · async-friendly for US &amp; EU</p>
           <h1>Scoped creative &amp; web work with a clear finish line.</h1>
@@ -279,8 +296,25 @@
     <section class="section section-alt" id="about">
       <div class="wrap about-grid">
         <div class="reveal">
-          <p class="section-label">About</p>
-          <h2>Aaron Saclolo</h2>
+          <div class="about-identity">
+            <!-- Same #profile-photo-about; swap both when a real photo is ready -->
+            <div class="avatar-wrap avatar-wrap--sm">
+              <img
+                id="profile-photo-about"
+                class="profile-photo"
+                src="avatar-as.png"
+                width="96"
+                height="96"
+                alt="Aaron Saclolo"
+                data-placeholder="avatar-as.png"
+                data-photo-path="photos/aaron-headshot.jpg"
+              />
+            </div>
+            <div>
+              <p class="section-label">About</p>
+              <h2>Aaron Saclolo</h2>
+            </div>
+          </div>
           <p>
             I’m a Philippines-based freelancer focused on short, multi-service jobs:
             transcription, photo edits, short copy, graphic and web design, video help,
